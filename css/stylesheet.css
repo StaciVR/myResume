@@ -1,85 +1,81 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
 body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-
-body {
-  font-family: 'Josefin Sans', sans-serif;
+  color: #41424E;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
-  background-color: #FCF7F8;
+  background-color: #F2E0D0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-header {
-  text-align: center;
-}
 
 footer {
-  background-color: #343330;
+  background-color: #A65362;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Elsie', cursive;
-  color: #8C5B49;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: #F2E0D0;
+  font-size: 800%;
+  padding-top: 15%;
+  margin: 0;
 }
 
-.info {
-  background-color: #F2BFB3;
+#slogan {
+  color: #F2E0D0;
+  padding-bottom: 15%;
+  font-size: 200%;
 }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 250%;
+  color: #A65362;
+}
+
 
 img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  height: 45%;
+  border: 3px solid #F2E0D0;
+}
+
+header {
+  background-color: #A65362;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+
+#Menu {
+  background-color: #A65362;
+  padding-top: 2%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.NavOption {
+  text-decoration: none;
+  color: #F2E0D0;
+  font-weight: 400;
+  font-family: 'playfair display', serif;
+}
+
+#profile {
+  background-color: #BF8F84;
+  margin: 0%;
+  padding: 5%;
+}
+
+.info {
+  padding: 0 5% 0 5%;
 }
