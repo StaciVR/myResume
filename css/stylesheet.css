@@ -8,6 +8,7 @@ body {
   flex-direction: column;
 }
 
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
@@ -44,7 +45,7 @@ header {
   text-align: center;
 }
 
-#Menu {
+#menu {
   background-color: #A65362;
   padding-top: 2%;
   display: flex;
@@ -54,7 +55,7 @@ header {
   margin-right: 20%;
 }
 
-.NavOption {
+.navOption {
   text-decoration: none;
   color: #F2E0D0;
   font-weight: 400;
